@@ -1,0 +1,46 @@
+wandb_version: 1
+
+model_type:
+  desc: null
+  value: ablation_model_one
+vocab_size:
+  desc: null
+  value: 5883
+latent_dim:
+  desc: null
+  value: 256
+criterion:
+  desc: null
+  value: CrossEntropyLoss()
+log_dir:
+  desc: null
+  value: /home/shared/data/pretrained_models/data/trained_listener/04-27-2024-21-05-05
+modality:
+  desc: null
+  value: pcae
+_wandb:
+  desc: null
+  value:
+    python_version: 3.8.19
+    cli_version: 0.16.6
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    start_time: 1714252092.0
+    t:
+      1:
+      - 1
+      - 55
+      2:
+      - 1
+      - 55
+      3:
+      - 13
+      - 16
+      - 23
+      - 61
+      4: 3.8.19
+      5: 0.16.6
+      8:
+      - 5
+      13: linux-x86_64

@@ -6,7 +6,7 @@ Originally created at 5/22/20, for Python 3.x
 
 import torch
 from torch import nn
-from ..losses.chamfer import chamfer_loss
+# from ..losses.chamfer import chamfer_loss
 from ..utils.stats import AverageMeter
 
 

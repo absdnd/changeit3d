@@ -1,0 +1,68 @@
+{
+    "os": "Linux-5.15.0-1058-gcp-x86_64-with-glibc2.17",
+    "python": "3.8.19",
+    "heartbeatAt": "2024-04-27T22:14:47.214317",
+    "startedAt": "2024-04-27T22:14:46.037737",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "changeit3d/notebooks/cs766/exp_c_listener_training.py",
+    "codePathLocal": "changeit3d/notebooks/cs766/exp_c_listener_training.py",
+    "codePath": "changeit3d/notebooks/cs766/exp_c_listener_training.py",
+    "git": {
+        "remote": "https://github.com/optas/changeit3d",
+        "commit": "5bdcd18085e791f52e5e86776da9e6b872725dd2"
+    },
+    "email": null,
+    "root": "/home/shared/changeit3d",
+    "host": "ss",
+    "username": "aharish2",
+    "executable": "/home/aharish2/miniconda3/envs/c3d/bin/python",
+    "cpu_count": 2,
+    "cpu_count_logical": 4,
+    "cpu_freq": {
+        "current": 2199.998,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2199.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2199.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2199.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2199.998,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 145.1909637451172,
+            "used": 100.47745513916016
+        }
+    },
+    "gpu": "Tesla T4",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "Tesla T4",
+            "memory_total": 16106127360
+        }
+    ],
+    "memory": {
+        "total": 14.627151489257812
+    }
+}

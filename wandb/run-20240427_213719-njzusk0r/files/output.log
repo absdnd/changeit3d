@@ -1,0 +1,628 @@
+/home/aharish2/miniconda3/envs/c3d/lib/python3.8/site-packages/torch/utils/data/dataloader.py:554: UserWarning: This DataLoader will create 10 worker processes in total. Our suggested max number of worker in current system is 4, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(_create_warning_msg(
+@epoch-2 train 0.536
+@epoch-2 train 0.536
+val 0.509
+val 0.509
+test 0.525
+test 0.525
+* validation accuracy improved *
+* validation accuracy improved *
+best test accuracy 0.525
+best test accuracy 0.525
+@epoch-3 train 0.574
+@epoch-3 train 0.574
+val 0.501
+val 0.501
+test 0.555
+test 0.555
+best test accuracy 0.525
+best test accuracy 0.525
+@epoch-4 train 0.595
+@epoch-4 train 0.595
+val 0.509
+val 0.509
+test 0.547
+test 0.547
+best test accuracy 0.525
+best test accuracy 0.525
+@epoch-5 train 0.618
+@epoch-5 train 0.618
+val 0.529
+val 0.529
+test 0.563
+test 0.563
+* validation accuracy improved *
+* validation accuracy improved *
+best test accuracy 0.563
+best test accuracy 0.563
+@epoch-6 train 0.635
+@epoch-6 train 0.635
+val 0.526
+val 0.526
+test 0.569
+test 0.569
+best test accuracy 0.563
+best test accuracy 0.563
+@epoch-7 train 0.648
+@epoch-7 train 0.648
+val 0.544
+val 0.544
+test 0.562
+test 0.562
+* validation accuracy improved *
+* validation accuracy improved *
+best test accuracy 0.562
+best test accuracy 0.562
+@epoch-8 train 0.666
+@epoch-8 train 0.666
+val 0.560
+val 0.560
+test 0.565
+test 0.565
+* validation accuracy improved *
+* validation accuracy improved *
+best test accuracy 0.565
+best test accuracy 0.565
+@epoch-9 train 0.671
+@epoch-9 train 0.671
+val 0.560
+val 0.560
+test 0.565
+test 0.565
+best test accuracy 0.565
+best test accuracy 0.565
+@epoch-10 train 0.681
+@epoch-10 train 0.681
+val 0.558
+val 0.558
+test 0.568
+test 0.568
+best test accuracy 0.565
+best test accuracy 0.565
+@epoch-11 train 0.693
+@epoch-11 train 0.693
+val 0.558
+val 0.558
+test 0.568
+test 0.568
+best test accuracy 0.565
+best test accuracy 0.565
+@epoch-12 train 0.700
+@epoch-12 train 0.700
+val 0.573
+val 0.573
+test 0.579
+test 0.579
+* validation accuracy improved *
+* validation accuracy improved *
+best test accuracy 0.579
+best test accuracy 0.579
+@epoch-13 train 0.709
+@epoch-13 train 0.709
+val 0.556
+val 0.556
+test 0.570
+test 0.570
+best test accuracy 0.579
+best test accuracy 0.579
+@epoch-14 train 0.718
+@epoch-14 train 0.718
+val 0.562
+val 0.562
+test 0.563
+test 0.563
+best test accuracy 0.579
+best test accuracy 0.579
+@epoch-15 train 0.722
+@epoch-15 train 0.722
+val 0.582
+val 0.582
+test 0.571
+test 0.571
+* validation accuracy improved *
+* validation accuracy improved *
+best test accuracy 0.571
+best test accuracy 0.571
+@epoch-16 train 0.730
+@epoch-16 train 0.730
+val 0.576
+val 0.576
+test 0.566
+test 0.566
+best test accuracy 0.571
+best test accuracy 0.571
+@epoch-17 train 0.738
+@epoch-17 train 0.738
+val 0.574
+val 0.574
+test 0.574
+test 0.574
+best test accuracy 0.571
+best test accuracy 0.571
+@epoch-18 train 0.743
+@epoch-18 train 0.743
+val 0.564
+val 0.564
+test 0.581
+test 0.581
+best test accuracy 0.571
+best test accuracy 0.571
+@epoch-19 train 0.748
+@epoch-19 train 0.748
+val 0.575
+val 0.575
+test 0.580
+test 0.580
+best test accuracy 0.571
+best test accuracy 0.571
+@epoch-20 train 0.754
+@epoch-20 train 0.754
+val 0.577
+val 0.577
+test 0.579
+test 0.579
+best test accuracy 0.571
+best test accuracy 0.571
+@epoch-21 train 0.759
+@epoch-21 train 0.759
+val 0.575
+val 0.575
+test 0.580
+test 0.580
+best test accuracy 0.571
+best test accuracy 0.571
+@epoch-22 train 0.764
+@epoch-22 train 0.764
+val 0.570
+val 0.570
+test 0.584
+test 0.584
+best test accuracy 0.571
+best test accuracy 0.571
+@epoch-23 train 0.772
+@epoch-23 train 0.772
+val 0.570
+val 0.570
+test 0.592
+test 0.592
+best test accuracy 0.571
+best test accuracy 0.571
+@epoch-24 train 0.772
+@epoch-24 train 0.772
+Epoch 00023: reducing learning rate of group 0 to 2.5000e-04.
+val 0.575
+val 0.575
+test 0.596
+test 0.596
+best test accuracy 0.571
+best test accuracy 0.571
+@epoch-25 train 0.785
+@epoch-25 train 0.785
+val 0.576
+val 0.576
+test 0.587
+test 0.587
+best test accuracy 0.571
+best test accuracy 0.571
+@epoch-26 train 0.792
+@epoch-26 train 0.792
+val 0.584
+val 0.584
+test 0.581
+test 0.581
+* validation accuracy improved *
+* validation accuracy improved *
+best test accuracy 0.581
+best test accuracy 0.581
+@epoch-27 train 0.796
+@epoch-27 train 0.796
+val 0.583
+val 0.583
+test 0.584
+test 0.584
+best test accuracy 0.581
+best test accuracy 0.581
+@epoch-28 train 0.797
+@epoch-28 train 0.797
+val 0.579
+val 0.579
+test 0.588
+test 0.588
+best test accuracy 0.581
+best test accuracy 0.581
+@epoch-29 train 0.801
+@epoch-29 train 0.801
+val 0.579
+val 0.579
+test 0.591
+test 0.591
+best test accuracy 0.581
+best test accuracy 0.581
+@epoch-30 train 0.806
+@epoch-30 train 0.806
+val 0.569
+val 0.569
+test 0.588
+test 0.588
+best test accuracy 0.581
+best test accuracy 0.581
+@epoch-31 train 0.806
+@epoch-31 train 0.806
+val 0.579
+val 0.579
+test 0.587
+test 0.587
+best test accuracy 0.581
+best test accuracy 0.581
+@epoch-32 train 0.809
+@epoch-32 train 0.809
+val 0.577
+val 0.577
+test 0.584
+test 0.584
+best test accuracy 0.581
+best test accuracy 0.581
+@epoch-33 train 0.808
+@epoch-33 train 0.808
+val 0.582
+val 0.582
+test 0.595
+test 0.595
+best test accuracy 0.581
+best test accuracy 0.581
+@epoch-34 train 0.814
+@epoch-34 train 0.814
+val 0.577
+val 0.577
+test 0.587
+test 0.587
+best test accuracy 0.581
+best test accuracy 0.581
+@epoch-35 train 0.818
+@epoch-35 train 0.818
+Epoch 00034: reducing learning rate of group 0 to 1.2500e-04.
+val 0.580
+val 0.580
+test 0.593
+test 0.593
+best test accuracy 0.581
+best test accuracy 0.581
+@epoch-36 train 0.821
+@epoch-36 train 0.821
+val 0.588
+val 0.588
+test 0.594
+test 0.594
+* validation accuracy improved *
+* validation accuracy improved *
+best test accuracy 0.594
+best test accuracy 0.594
+@epoch-37 train 0.826
+@epoch-37 train 0.826
+val 0.576
+val 0.576
+test 0.588
+test 0.588
+best test accuracy 0.594
+best test accuracy 0.594
+@epoch-38 train 0.828
+@epoch-38 train 0.828
+val 0.576
+val 0.576
+test 0.590
+test 0.590
+best test accuracy 0.594
+best test accuracy 0.594
+@epoch-39 train 0.829
+@epoch-39 train 0.829
+val 0.574
+val 0.574
+test 0.586
+test 0.586
+best test accuracy 0.594
+best test accuracy 0.594
+@epoch-40 train 0.829
+@epoch-40 train 0.829
+val 0.580
+val 0.580
+test 0.588
+test 0.588
+best test accuracy 0.594
+best test accuracy 0.594
+@epoch-41 train 0.829
+@epoch-41 train 0.829
+val 0.572
+val 0.572
+test 0.586
+test 0.586
+best test accuracy 0.594
+best test accuracy 0.594
+@epoch-42 train 0.835
+@epoch-42 train 0.835
+val 0.577
+val 0.577
+test 0.586
+test 0.586
+best test accuracy 0.594
+best test accuracy 0.594
+@epoch-43 train 0.831
+@epoch-43 train 0.831
+val 0.578
+val 0.578
+test 0.587
+test 0.587
+best test accuracy 0.594
+best test accuracy 0.594
+@epoch-44 train 0.835
+@epoch-44 train 0.835
+val 0.579
+val 0.579
+test 0.583
+test 0.583
+best test accuracy 0.594
+best test accuracy 0.594
+@epoch-45 train 0.836
+@epoch-45 train 0.836
+Epoch 00044: reducing learning rate of group 0 to 6.2500e-05.
+val 0.576
+val 0.576
+test 0.583
+test 0.583
+best test accuracy 0.594
+best test accuracy 0.594
+@epoch-46 train 0.840
+@epoch-46 train 0.840
+val 0.575
+val 0.575
+test 0.586
+test 0.586
+best test accuracy 0.594
+best test accuracy 0.594
+@epoch-47 train 0.841
+@epoch-47 train 0.841
+val 0.575
+val 0.575
+test 0.586
+test 0.586
+best test accuracy 0.594
+best test accuracy 0.594
+@epoch-48 train 0.842
+@epoch-48 train 0.842
+val 0.574
+val 0.574
+test 0.583
+test 0.583
+best test accuracy 0.594
+best test accuracy 0.594
+@epoch-49 train 0.843
+@epoch-49 train 0.843
+val 0.572
+val 0.572
+test 0.583
+test 0.583
+best test accuracy 0.594
+best test accuracy 0.594
+@epoch-50 train 0.844
+@epoch-50 train 0.844
+val 0.575
+val 0.575
+test 0.585
+test 0.585
+best test accuracy 0.594
+best test accuracy 0.594
+@epoch-51 train 0.845
+@epoch-51 train 0.845
+val 0.572
+val 0.572
+test 0.586
+test 0.586
+best test accuracy 0.594
+best test accuracy 0.594
+Validation loss did not improve for 15 consecutive epochs. Training is stopped.
+Validation loss did not improve for 15 consecutive epochs. Training is stopped.
+Training is done!
+Training is done!
+per-validation optimal epoch 36
+per-validation optimal epoch 36
+(verifying) test accuracy at that epoch is : 0.5940766550522648
+(verifying) test accuracy at that epoch is : 0.5940766550522648
+Start training of the listener.
+Start training of the listener.
+Restricting to class(es) ['mug', 'vase', 'lamp', 'bottle']. Total utterances: 75413
+Restricting to class(es) ['mug', 'vase', 'lamp', 'bottle']. Total utterances: 75413
+/home/aharish2/miniconda3/envs/c3d/lib/python3.8/site-packages/torch/utils/data/dataloader.py:554: UserWarning: This DataLoader will create 10 worker processes in total. Our suggested max number of worker in current system is 4, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(_create_warning_msg(
+@epoch-2 train 0.548
+@epoch-2 train 0.548
+val 0.560
+val 0.560
+test 0.568
+test 0.568
+* validation accuracy improved *
+* validation accuracy improved *
+best test accuracy 0.568
+best test accuracy 0.568
+@epoch-3 train 0.607
+@epoch-3 train 0.607
+val 0.576
+val 0.576
+[34m[1mwandb[39m[22m: [33mWARNING[39m Step only supports monotonically increasing values, use define_metric to set a custom x axis. For details see: https://wandb.me/define-metric
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 2 is less than current step: 51. Dropping entry: {'train/acc': 0.5482129969562899, 'train/loss': 0.685935695322701, '_timestamp': 1714254209.9674203}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 2 is less than current step: 51. Dropping entry: {'val/acc': 0.560244161358811, '_timestamp': 1714254210.8530447}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 2 is less than current step: 51. Dropping entry: {'test/acc': 0.568346287858483, '_timestamp': 1714254211.908264}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 3 is less than current step: 51. Dropping entry: {'train/acc': 0.6070946688004016, 'train/loss': 0.6528197613919494, '_timestamp': 1714254217.5556173}).
+test 0.583
+test 0.583
+* validation accuracy improved *
+* validation accuracy improved *
+best test accuracy 0.583
+best test accuracy 0.583
+@epoch-4 train 0.627
+@epoch-4 train 0.627
+val 0.551
+val 0.551
+test 0.585
+test 0.585
+best test accuracy 0.583
+best test accuracy 0.583
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 3 is less than current step: 51. Dropping entry: {'val/acc': 0.5764331210191083, '_timestamp': 1714254218.661731}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 3 is less than current step: 51. Dropping entry: {'test/acc': 0.5834896810506567, '_timestamp': 1714254219.7844882}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 4 is less than current step: 51. Dropping entry: {'train/acc': 0.6269415419373059, 'train/loss': 0.6325770345281517, '_timestamp': 1714254225.6933563}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 4 is less than current step: 51. Dropping entry: {'val/acc': 0.5506900212314225, '_timestamp': 1714254226.667405}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 4 is less than current step: 51. Dropping entry: {'test/acc': 0.5850978290002681, '_timestamp': 1714254227.753809}).
+@epoch-5 train 0.648
+@epoch-5 train 0.648
+val 0.564
+val 0.564
+test 0.580
+test 0.580
+best test accuracy 0.583
+best test accuracy 0.583
+@epoch-6 train 0.668
+@epoch-6 train 0.668
+val 0.561
+val 0.561
+test 0.589
+test 0.589
+best test accuracy 0.583
+best test accuracy 0.583
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 5 is less than current step: 51. Dropping entry: {'train/acc': 0.648435783990712, 'train/loss': 0.6156091052084864, '_timestamp': 1714254233.727809}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 5 is less than current step: 51. Dropping entry: {'val/acc': 0.5642250530785563, '_timestamp': 1714254234.9082785}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 5 is less than current step: 51. Dropping entry: {'test/acc': 0.5796033235057625, '_timestamp': 1714254236.0578637}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 6 is less than current step: 51. Dropping entry: {'train/acc': 0.6677021556998964, 'train/loss': 0.5965407237921605, '_timestamp': 1714254242.94422}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 6 is less than current step: 51. Dropping entry: {'val/acc': 0.5610403397027601, '_timestamp': 1714254244.019429}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 6 is less than current step: 51. Dropping entry: {'test/acc': 0.5889841865451622, '_timestamp': 1714254245.1258857}).
+@epoch-7 train 0.678
+@epoch-7 train 0.678
+val 0.563
+val 0.563
+test 0.567
+test 0.567
+best test accuracy 0.583
+best test accuracy 0.583
+@epoch-8 train 0.691
+@epoch-8 train 0.691
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 7 is less than current step: 51. Dropping entry: {'train/acc': 0.6780884244877468, 'train/loss': 0.5838997366512988, '_timestamp': 1714254252.350445}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 7 is less than current step: 51. Dropping entry: {'val/acc': 0.5626326963906582, '_timestamp': 1714254253.4419513}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 7 is less than current step: 51. Dropping entry: {'test/acc': 0.567408201554543, '_timestamp': 1714254254.824584}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 8 is less than current step: 51. Dropping entry: {'train/acc': 0.690875145125357, 'train/loss': 0.5694327844113543, '_timestamp': 1714254262.326399}).
+val 0.565
+val 0.565
+test 0.563
+test 0.563
+best test accuracy 0.583
+best test accuracy 0.583
+@epoch-9 train 0.703
+@epoch-9 train 0.703
+val 0.565
+val 0.565
+test 0.563
+test 0.563
+best test accuracy 0.583
+best test accuracy 0.583
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 8 is less than current step: 51. Dropping entry: {'val/acc': 0.5650212314225053, '_timestamp': 1714254263.656716}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 8 is less than current step: 51. Dropping entry: {'test/acc': 0.5625837577057089, '_timestamp': 1714254265.2827706}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 9 is less than current step: 51. Dropping entry: {'train/acc': 0.7033010135241143, 'train/loss': 0.5550809206476756, '_timestamp': 1714254272.3428917}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 9 is less than current step: 51. Dropping entry: {'val/acc': 0.5650212314225053, '_timestamp': 1714254273.2148666}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 9 is less than current step: 51. Dropping entry: {'test/acc': 0.5625837577057089, '_timestamp': 1714254274.2861238}).
+@epoch-10 train 0.712
+@epoch-10 train 0.712
+val 0.545
+val 0.545
+test 0.561
+test 0.561
+best test accuracy 0.583
+best test accuracy 0.583
+@epoch-11 train 0.720
+@epoch-11 train 0.720
+val 0.567
+val 0.567
+test 0.557
+test 0.557
+best test accuracy 0.583
+best test accuracy 0.583
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 10 is less than current step: 51. Dropping entry: {'train/acc': 0.7116006150177289, 'train/loss': 0.5441966970353891, '_timestamp': 1714254280.015578}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 10 is less than current step: 51. Dropping entry: {'val/acc': 0.5453821656050956, '_timestamp': 1714254280.885056}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 10 is less than current step: 51. Dropping entry: {'test/acc': 0.5605735727686947, '_timestamp': 1714254282.094863}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 11 is less than current step: 51. Dropping entry: {'train/acc': 0.7202610687501961, 'train/loss': 0.5317237897877444, '_timestamp': 1714254287.8481045}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 11 is less than current step: 51. Dropping entry: {'val/acc': 0.5668789808917197, '_timestamp': 1714254288.72624}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 11 is less than current step: 51. Dropping entry: {'test/acc': 0.5566872152238006, '_timestamp': 1714254289.8447585}).
+@epoch-12 train 0.730
+@epoch-12 train 0.730
+Epoch 00011: reducing learning rate of group 0 to 2.5000e-04.
+val 0.538
+val 0.538
+test 0.543
+test 0.543
+best test accuracy 0.583
+best test accuracy 0.583
+@epoch-13 train 0.741
+@epoch-13 train 0.741
+val 0.553
+val 0.553
+test 0.545
+test 0.545
+best test accuracy 0.583
+best test accuracy 0.583
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 12 is less than current step: 51. Dropping entry: {'train/acc': 0.7295177131381594, 'train/loss': 0.5216413999008555, '_timestamp': 1714254295.8121371}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 12 is less than current step: 51. Dropping entry: {'val/acc': 0.5376857749469214, '_timestamp': 1714254296.6687863}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 12 is less than current step: 51. Dropping entry: {'test/acc': 0.5432859823103725, '_timestamp': 1714254297.7416494}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 13 is less than current step: 51. Dropping entry: {'train/acc': 0.7406884433148201, 'train/loss': 0.5059912189836128, '_timestamp': 1714254303.7079816}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 13 is less than current step: 51. Dropping entry: {'val/acc': 0.5528131634819533, '_timestamp': 1714254304.5703917}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 13 is less than current step: 51. Dropping entry: {'test/acc': 0.5454301795765211, '_timestamp': 1714254305.6953337}).
+@epoch-14 train 0.749
+@epoch-14 train 0.749
+val 0.554
+val 0.554
+test 0.544
+test 0.544
+best test accuracy 0.583
+best test accuracy 0.583
+@epoch-15 train 0.755
+@epoch-15 train 0.755
+val 0.535
+val 0.535
+test 0.545
+test 0.545
+best test accuracy 0.583
+best test accuracy 0.583
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 14 is less than current step: 51. Dropping entry: {'train/acc': 0.7485958141140293, 'train/loss': 0.4939098254193577, '_timestamp': 1714254311.701415}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 14 is less than current step: 51. Dropping entry: {'val/acc': 0.5536093418259024, '_timestamp': 1714254312.5476723}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 14 is less than current step: 51. Dropping entry: {'test/acc': 0.5435540069686411, '_timestamp': 1714254313.632503}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 15 is less than current step: 51. Dropping entry: {'train/acc': 0.7547459914023033, 'train/loss': 0.48593363607340123, '_timestamp': 1714254319.3095026}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 15 is less than current step: 51. Dropping entry: {'val/acc': 0.5347664543524416, '_timestamp': 1714254320.1407528}).
+[34m[1mwandb[39m[22m: [33mWARNING[39m (User provided step: 15 is less than current step: 51. Dropping entry: {'test/acc': 0.5446261056017153, '_timestamp': 1714254321.2532248}).
+@epoch-16 train 0.760
+@epoch-16 train 0.760
+val 0.532
+val 0.532
+test 0.531
+test 0.531
+best test accuracy 0.583
+best test accuracy 0.583
+Traceback (most recent call last):
+  File "changeit3d/notebooks/cs766/exp_c_listener_training.py", line 200, in <module>
+  File "changeit3d/notebooks/cs766/exp_c_listener_training.py", line 93, in exp_c_train_listener
+    np.random.seed()
+  File "/home/shared/changeit3d/changeit3d/models/listening_oriented.py", line 212, in single_epoch_train
+    for batch in train_loader:
+  File "/home/aharish2/miniconda3/envs/c3d/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 628, in __next__
+    data = self._next_data()
+  File "/home/aharish2/miniconda3/envs/c3d/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1316, in _next_data
+    idx, data = self._get_data()
+  File "/home/aharish2/miniconda3/envs/c3d/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1282, in _get_data
+    success, data = self._try_get_data()
+  File "/home/aharish2/miniconda3/envs/c3d/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1120, in _try_get_data
+    data = self._data_queue.get(timeout=timeout)
+  File "/home/aharish2/miniconda3/envs/c3d/lib/python3.8/multiprocessing/queues.py", line 116, in get
+    return _ForkingPickler.loads(res)
+  File "/home/aharish2/miniconda3/envs/c3d/lib/python3.8/site-packages/torch/multiprocessing/reductions.py", line 305, in rebuild_storage_fd
+    fd = df.detach()
+  File "/home/aharish2/miniconda3/envs/c3d/lib/python3.8/multiprocessing/resource_sharer.py", line 58, in detach
+    return reduction.recv_handle(conn)
+  File "/home/aharish2/miniconda3/envs/c3d/lib/python3.8/multiprocessing/reduction.py", line 189, in recv_handle
+    return recvfds(s, 1)[0]
+  File "/home/aharish2/miniconda3/envs/c3d/lib/python3.8/multiprocessing/reduction.py", line 157, in recvfds
+    msg, ancdata, flags, addr = sock.recvmsg(1, socket.CMSG_SPACE(bytes_size))
+KeyboardInterrupt

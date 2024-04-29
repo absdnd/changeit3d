@@ -1,8 +1,8 @@
 ### below we are using the default (per argparse) parameters for
 ### --encoder_conv_layers and --decoder_fc_neurons to train the AE
 
-code_top_dir=/home/panos/Git_Repos/changeit3d/changeit3d                 # replace with your own
-data_top_dir=/home/panos/Git_Repos/changeit3d/changeit3d/data
+code_top_dir=/home/shared/changeit3d/changeit3d/                 # replace with your own
+data_top_dir=/home/shared/changeit3d/data/
 
 random_seed=2022
 n_pc_points=4096

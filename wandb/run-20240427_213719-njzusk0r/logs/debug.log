@@ -1,0 +1,41 @@
+2024-04-27 21:37:19,591 INFO    MainThread:10784 [wandb_setup.py:_flush():76] Current SDK version is 0.16.6
+2024-04-27 21:37:19,591 INFO    MainThread:10784 [wandb_setup.py:_flush():76] Configure stats pid to 10784
+2024-04-27 21:37:19,591 INFO    MainThread:10784 [wandb_setup.py:_flush():76] Loading settings from /home/aharish2/.config/wandb/settings
+2024-04-27 21:37:19,591 INFO    MainThread:10784 [wandb_setup.py:_flush():76] Loading settings from /home/shared/changeit3d/wandb/settings
+2024-04-27 21:37:19,591 INFO    MainThread:10784 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-04-27 21:37:19,591 INFO    MainThread:10784 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-04-27 21:37:19,591 INFO    MainThread:10784 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'changeit3d/notebooks/cs766/exp_c_listener_training.py', 'program_abspath': '/home/shared/changeit3d/changeit3d/notebooks/cs766/exp_c_listener_training.py', 'program': 'changeit3d/notebooks/cs766/exp_c_listener_training.py'}
+2024-04-27 21:37:19,591 INFO    MainThread:10784 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-04-27 21:37:19,591 INFO    MainThread:10784 [wandb_init.py:_log_setup():521] Logging user logs to /home/shared/changeit3d/wandb/run-20240427_213719-njzusk0r/logs/debug.log
+2024-04-27 21:37:19,591 INFO    MainThread:10784 [wandb_init.py:_log_setup():522] Logging internal logs to /home/shared/changeit3d/wandb/run-20240427_213719-njzusk0r/logs/debug-internal.log
+2024-04-27 21:37:19,592 INFO    MainThread:10784 [wandb_init.py:init():561] calling init triggers
+2024-04-27 21:37:19,592 INFO    MainThread:10784 [wandb_init.py:init():568] wandb.init called with sweep_config: {}
+config: {'shape_talk_file': '/home/shared/data/shapetalk_dataset/shapetalk/language/shapetalk_preprocessed_public_version_0.csv', 'vocab_file': '/home/shared/data/shapetalk_dataset/shapetalk/language/vocabulary.pkl', 'latent_codes_file': '/home/shared/data/pretrained/shape_latents/pcae_latent_codes.pkl', 'restrict_shape_class': ['mug', 'vase', 'lamp', 'bottle'], 'add_shape_glot': False, 'listening_model': 'ablation_model_one', 'do_training': True, 'init_lr': 0.0005, 'max_train_epochs': 100, 'batch_size': 2048, 'num_workers': 10, 'train_patience': 15, 'lr_patience': 8, 'weight_decay': 0.001, 'save_analysis_results': True, 'pretrained_model_file': '/home/shared/data/pretrained/listeners/all_shapetalk_classes/rs_2022/single_utter/transformer_based/latent_pcae_based/best_model.pt', 'log_dir': '/home/shared/data/pretrained_models/data/trained_listener/04-27-2024-21-36-16', 'random_seed': 2022, 'use_timestamp': True, 'experiment_tag': None, 'gpu_id': 0}
+2024-04-27 21:37:19,592 INFO    MainThread:10784 [wandb_init.py:init():611] starting backend
+2024-04-27 21:37:19,592 INFO    MainThread:10784 [wandb_init.py:init():615] setting up manager
+2024-04-27 21:37:19,595 INFO    MainThread:10784 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-04-27 21:37:19,596 INFO    MainThread:10784 [wandb_init.py:init():623] backend started and connected
+2024-04-27 21:37:19,606 INFO    MainThread:10784 [wandb_init.py:init():715] updated telemetry
+2024-04-27 21:37:19,654 INFO    MainThread:10784 [wandb_init.py:init():748] communicating run to backend with 90.0 second timeout
+2024-04-27 21:37:20,062 INFO    MainThread:10784 [wandb_run.py:_on_init():2357] communicating current version
+2024-04-27 21:37:20,200 INFO    MainThread:10784 [wandb_run.py:_on_init():2366] got version response 
+2024-04-27 21:37:20,200 INFO    MainThread:10784 [wandb_init.py:init():799] starting run threads in backend
+2024-04-27 21:37:23,437 INFO    MainThread:10784 [wandb_run.py:_console_start():2335] atexit reg
+2024-04-27 21:37:23,437 INFO    MainThread:10784 [wandb_run.py:_redirect():2190] redirect: wrap_raw
+2024-04-27 21:37:23,437 INFO    MainThread:10784 [wandb_run.py:_redirect():2255] Wrapping output streams.
+2024-04-27 21:37:23,437 INFO    MainThread:10784 [wandb_run.py:_redirect():2280] Redirects installed.
+2024-04-27 21:37:23,438 INFO    MainThread:10784 [wandb_init.py:init():842] run started, returning control to user process
+2024-04-27 21:43:24,162 INFO    MainThread:10784 [wandb_setup.py:_flush():76] Current SDK version is 0.16.6
+2024-04-27 21:43:24,162 INFO    MainThread:10784 [wandb_setup.py:_flush():76] Configure stats pid to 10784
+2024-04-27 21:43:24,162 INFO    MainThread:10784 [wandb_setup.py:_flush():76] Loading settings from /home/aharish2/.config/wandb/settings
+2024-04-27 21:43:24,162 INFO    MainThread:10784 [wandb_setup.py:_flush():76] Loading settings from /home/shared/changeit3d/wandb/settings
+2024-04-27 21:43:24,162 INFO    MainThread:10784 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-04-27 21:43:24,162 INFO    MainThread:10784 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-04-27 21:43:24,162 INFO    MainThread:10784 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'changeit3d/notebooks/cs766/exp_c_listener_training.py', 'program_abspath': '/home/shared/changeit3d/changeit3d/notebooks/cs766/exp_c_listener_training.py', 'program': 'changeit3d/notebooks/cs766/exp_c_listener_training.py'}
+2024-04-27 21:43:24,162 INFO    MainThread:10784 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-04-27 21:43:24,162 INFO    MainThread:10784 [wandb_init.py:_log_setup():521] Logging user logs to /home/shared/changeit3d/wandb/run-20240427_214324-jkhku8fx/logs/debug.log
+2024-04-27 21:43:24,162 INFO    MainThread:10784 [wandb_init.py:_log_setup():522] Logging internal logs to /home/shared/changeit3d/wandb/run-20240427_214324-jkhku8fx/logs/debug-internal.log
+2024-04-27 21:43:24,162 INFO    MainThread:10784 [wandb_init.py:init():561] calling init triggers
+2024-04-27 21:43:24,162 INFO    MainThread:10784 [wandb_init.py:init():568] wandb.init called with sweep_config: {}
+config: {'shape_talk_file': '/home/shared/data/shapetalk_dataset/shapetalk/language/shapetalk_preprocessed_public_version_0.csv', 'vocab_file': '/home/shared/data/shapetalk_dataset/shapetalk/language/vocabulary.pkl', 'latent_codes_file': '/home/shared/data/pretrained/shape_latents/pcae_latent_codes.pkl', 'restrict_shape_class': ['mug', 'vase', 'lamp', 'bottle'], 'add_shape_glot': False, 'listening_model': 'ablation_model_one', 'do_training': True, 'init_lr': 0.0005, 'max_train_epochs': 100, 'batch_size': 2048, 'num_workers': 10, 'train_patience': 15, 'lr_patience': 8, 'weight_decay': 0.001, 'save_analysis_results': True, 'pretrained_model_file': '/home/shared/data/pretrained/listeners/all_shapetalk_classes/rs_2022/single_utter/transformer_based/latent_pcae_based/best_model.pt', 'log_dir': '/home/shared/data/pretrained_models/data/trained_listener/04-27-2024-21-36-16', 'random_seed': 2022, 'use_timestamp': True, 'experiment_tag': None, 'gpu_id': 0}
+2024-04-27 21:43:24,162 INFO    MainThread:10784 [wandb_init.py:init():606] wandb.init() called when a run is still active

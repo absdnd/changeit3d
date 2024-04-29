@@ -2,7 +2,7 @@ import torch
 from torch import nn
 
 from ..utils.stats import AverageMeter
-from ..losses.chamfer import chamfer_loss
+# from ..losses.chamfer import chamfer_loss
 
 
 class MonolithicChangeIt3D(nn.Module):

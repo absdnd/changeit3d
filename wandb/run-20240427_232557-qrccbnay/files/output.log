@@ -1,0 +1,26 @@
+/home/aharish2/miniconda3/envs/c3d/lib/python3.8/site-packages/torch/utils/data/dataloader.py:554: UserWarning: This DataLoader will create 10 worker processes in total. Our suggested max number of worker in current system is 4, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(_create_warning_msg(
+Exception ignored in: <Finalize object, dead>
+Traceback (most recent call last):
+  File "/home/aharish2/miniconda3/envs/c3d/lib/python3.8/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/home/aharish2/miniconda3/envs/c3d/lib/python3.8/multiprocessing/util.py", line 464, in close_fds
+    os.close(fd)
+KeyboardInterrupt:
+Traceback (most recent call last):
+  File "changeit3d/notebooks/cs766/exp_c_listener_training.py", line 220, in <module>
+  File "changeit3d/notebooks/cs766/exp_c_listener_training.py", line 97, in exp_c_train_listener
+    np.random.seed()
+  File "/home/shared/changeit3d/changeit3d/models/listening_oriented.py", line 230, in single_epoch_train
+    optimizer.step()
+  File "/home/aharish2/miniconda3/envs/c3d/lib/python3.8/site-packages/torch/optim/optimizer.py", line 140, in wrapper
+    out = func(*args, **kwargs)
+  File "/home/aharish2/miniconda3/envs/c3d/lib/python3.8/site-packages/torch/optim/optimizer.py", line 23, in _use_grad
+    ret = func(self, *args, **kwargs)
+  File "/home/aharish2/miniconda3/envs/c3d/lib/python3.8/site-packages/torch/optim/adam.py", line 234, in step
+    adam(params_with_grad,
+  File "/home/aharish2/miniconda3/envs/c3d/lib/python3.8/site-packages/torch/optim/adam.py", line 300, in adam
+    func(params,
+  File "/home/aharish2/miniconda3/envs/c3d/lib/python3.8/site-packages/torch/optim/adam.py", line 412, in _single_tensor_adam
+    param.addcdiv_(exp_avg, denom, value=-step_size)
+KeyboardInterrupt

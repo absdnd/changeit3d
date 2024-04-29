@@ -1,0 +1,108 @@
+2024-04-21 05:34:36,835 - Latent codes with dimension 256 are loaded.
+2024-04-21 05:34:59,468 - Restricting to class(es) ['chair', 'table', 'lamp']. Total utterances: 217747
+2024-04-21 05:35:24,875 - Latent codes with dimension 256 are loaded.
+2024-04-21 05:35:46,629 - Restricting to class(es) ['chair', 'table', 'lamp']. Total utterances: 217747
+2024-04-21 05:36:01,004 - Latent codes with dimension 256 are loaded.
+2024-04-21 05:36:23,065 - Restricting to class(es) ['chair', 'table', 'lamp']. Total utterances: 217747
+2024-04-21 05:37:09,469 - Latent codes with dimension 256 are loaded.
+2024-04-21 05:37:31,457 - Restricting to class(es) ['chair', 'table', 'lamp']. Total utterances: 217747
+2024-04-21 05:38:21,229 - Latent codes with dimension 256 are loaded.
+2024-04-21 05:38:42,629 - Restricting to class(es) ['chair', 'table', 'lamp']. Total utterances: 217747
+2024-04-21 05:41:26,047 - Latent codes with dimension 256 are loaded.
+2024-04-21 05:41:47,833 - Restricting to class(es) ['chair', 'table', 'lamp']. Total utterances: 217747
+2024-04-21 05:43:04,594 - Latent codes with dimension 256 are loaded.
+2024-04-21 05:43:27,451 - Restricting to class(es) ['chair', 'table', 'lamp']. Total utterances: 217747
+2024-04-21 05:48:47,702 - Latent codes with dimension 256 are loaded.
+2024-04-21 05:49:10,044 - Restricting to class(es) ['chair', 'table', 'lamp']. Total utterances: 217747
+2024-04-21 05:53:20,600 - Latent codes with dimension 256 are loaded.
+2024-04-21 05:53:42,331 - Restricting to class(es) ['chair', 'table', 'lamp']. Total utterances: 217747
+2024-04-21 05:59:16,322 - Latent codes with dimension 256 are loaded.
+2024-04-21 05:59:38,276 - Restricting to class(es) ['chair', 'table', 'lamp']. Total utterances: 217747
+2024-04-21 06:05:01,259 - Latent codes with dimension 256 are loaded.
+2024-04-21 06:05:27,971 - Restricting to class(es) ['chair', 'table', 'lamp']. Total utterances: 217747
+2024-04-21 06:05:56,117 - Latent codes with dimension 256 are loaded.
+2024-04-21 06:06:19,718 - Restricting to class(es) ['chair', 'table', 'lamp']. Total utterances: 217747
+2024-04-21 06:06:29,550 - Latent codes with dimension 256 are loaded.
+2024-04-21 06:06:51,554 - Restricting to class(es) ['chair', 'table', 'lamp']. Total utterances: 217747
+2024-04-21 06:07:44,981 - Latent codes with dimension 256 are loaded.
+2024-04-21 06:08:06,800 - Restricting to class(es) ['chair', 'table', 'lamp']. Total utterances: 217747
+2024-04-21 06:09:21,191 - Latent codes with dimension 256 are loaded.
+2024-04-21 06:09:46,887 - Restricting to class(es) ['chair', 'table', 'lamp']. Total utterances: 217747
+2024-04-21 06:10:10,157 - Latent codes with dimension 256 are loaded.
+2024-04-21 06:10:32,458 - Restricting to class(es) ['chair', 'table', 'lamp']. Total utterances: 217747
+2024-04-21 06:11:26,662 - Latent codes with dimension 256 are loaded.
+2024-04-21 06:11:49,182 - Restricting to class(es) ['chair', 'table', 'lamp']. Total utterances: 217747
+2024-04-21 06:12:40,448 - Latent codes with dimension 256 are loaded.
+2024-04-21 06:13:02,146 - Restricting to class(es) ['chair', 'table', 'lamp']. Total utterances: 217747
+2024-04-21 06:14:17,115 - Latent codes with dimension 256 are loaded.
+2024-04-21 06:14:38,876 - Restricting to class(es) ['chair', 'table', 'lamp']. Total utterances: 217747
+2024-04-21 06:15:36,121 - Latent codes with dimension 256 are loaded.
+2024-04-21 06:15:58,153 - Restricting to class(es) ['chair', 'table', 'lamp']. Total utterances: 217747
+2024-04-21 06:17:13,455 - Latent codes with dimension 256 are loaded.
+2024-04-21 06:17:35,144 - Restricting to class(es) ['chair', 'table', 'lamp']. Total utterances: 217747
+2024-04-21 06:27:27,067 - Latent codes with dimension 256 are loaded.
+2024-04-21 06:27:48,601 - Restricting to class(es) ['chair', 'table', 'lamp']. Total utterances: 217747
+2024-04-21 06:28:02,449 - Latent codes with dimension 256 are loaded.
+2024-04-21 06:28:24,003 - Restricting to class(es) ['chair', 'table', 'lamp']. Total utterances: 217747
+2024-04-21 06:29:10,505 - Latent codes with dimension 256 are loaded.
+2024-04-21 06:29:32,010 - Restricting to class(es) ['chair', 'table', 'lamp']. Total utterances: 217747
+2024-04-21 07:00:06,875 - Latent codes with dimension 256 are loaded.
+2024-04-21 07:00:26,684 - Latent codes with dimension 256 are loaded.
+2024-04-21 07:00:28,627 - Restricting to class(es) ['chair', 'table', 'lamp']. Total utterances: 217747
+2024-04-21 07:00:49,865 - Restricting to class(es) ['chair', 'table', 'lamp']. Total utterances: 217747
+2024-04-21 07:01:21,445 - Latent codes with dimension 256 are loaded.
+2024-04-21 07:01:43,012 - Restricting to class(es) ['chair', 'table', 'lamp']. Total utterances: 217747
+2024-04-22 03:52:56,256 - Latent codes with dimension 256 are loaded.
+2024-04-22 03:53:19,558 - Restricting to class(es) ['chair', 'table', 'lamp']. Total utterances: 217747
+2024-04-22 03:54:04,868 - Latent codes with dimension 256 are loaded.
+2024-04-22 03:54:26,448 - Restricting to class(es) ['chair', 'table', 'lamp']. Total utterances: 217747
+2024-04-22 04:30:01,737 - Latent codes with dimension 256 are loaded.
+2024-04-22 04:30:28,150 - Latent codes with dimension 256 are loaded.
+2024-04-22 04:30:49,775 - Restricting to class(es) ['chair', 'table', 'lamp']. Total utterances: 217747
+2024-04-22 04:32:40,097 - Latent codes with dimension 256 are loaded.
+2024-04-22 04:33:01,505 - Restricting to class(es) ['chair', 'table', 'lamp']. Total utterances: 217747
+2024-04-22 04:39:26,493 - Latent codes with dimension 256 are loaded.
+2024-04-22 04:39:47,802 - Restricting to class(es) ['chair', 'table', 'lamp']. Total utterances: 217747
+2024-04-22 04:40:31,915 - Latent codes with dimension 256 are loaded.
+2024-04-22 04:40:53,350 - Restricting to class(es) ['chair', 'table', 'lamp']. Total utterances: 217747
+2024-04-22 04:42:31,047 - Latent codes with dimension 256 are loaded.
+2024-04-22 04:42:52,466 - Restricting to class(es) ['chair', 'table', 'lamp']. Total utterances: 217747
+2024-04-22 04:56:37,474 - Latent codes with dimension 256 are loaded.
+2024-04-22 04:56:59,460 - Restricting to class(es) ['chair', 'table', 'lamp']. Total utterances: 217747
+2024-04-22 05:09:10,686 - Latent codes with dimension 256 are loaded.
+2024-04-22 05:09:32,521 - Restricting to class(es) ['chair', 'table', 'lamp']. Total utterances: 217747
+2024-04-22 06:59:42,513 - Latent codes with dimension 256 are loaded.
+2024-04-22 07:00:04,434 - Restricting to class(es) ['chair', 'table', 'lamp']. Total utterances: 217747
+2024-04-26 21:22:19,662 - Latent codes with dimension 256 are loaded.
+2024-04-26 21:22:44,526 - Restricting to class(es) ['chair', 'table', 'lamp']. Total utterances: 217747
+2024-04-26 21:23:21,781 - Latent codes with dimension 256 are loaded.
+2024-04-26 21:23:45,529 - Restricting to class(es) ['chair', 'table', 'lamp']. Total utterances: 217747
+2024-04-26 21:27:04,913 - Latent codes with dimension 256 are loaded.
+2024-04-26 21:27:28,233 - Restricting to class(es) ['chair', 'table', 'lamp']. Total utterances: 217747
+2024-04-26 21:27:58,909 - Latent codes with dimension 256 are loaded.
+2024-04-26 21:28:22,393 - Restricting to class(es) ['chair', 'table', 'lamp']. Total utterances: 217747
+2024-04-26 21:29:26,692 - Latent codes with dimension 256 are loaded.
+2024-04-26 21:29:51,009 - Restricting to class(es) ['chair', 'table', 'lamp']. Total utterances: 217747
+2024-04-26 21:30:36,992 - Latent codes with dimension 256 are loaded.
+2024-04-26 21:31:00,532 - Restricting to class(es) ['chair', 'table', 'lamp']. Total utterances: 217747
+2024-04-26 21:37:15,710 - Latent codes with dimension 256 are loaded.
+2024-04-26 21:37:39,025 - Restricting to class(es) ['chair', 'table', 'lamp']. Total utterances: 217747
+2024-04-26 21:43:32,755 - Latent codes with dimension 256 are loaded.
+2024-04-26 21:43:56,370 - Restricting to class(es) ['chair', 'table', 'lamp']. Total utterances: 217747
+2024-04-26 21:54:39,883 - Latent codes with dimension 256 are loaded.
+2024-04-27 03:10:22,998 - Latent codes with dimension 256 are loaded.
+2024-04-27 03:10:44,747 - Restricting to class(es) ['chair', 'table', 'lamp']. Total utterances: 217747
+2024-04-27 03:11:57,992 - Latent codes with dimension 256 are loaded.
+2024-04-27 03:12:20,968 - Restricting to class(es) ['chair', 'table', 'lamp']. Total utterances: 217747
+2024-04-27 03:12:40,258 - Latent codes with dimension 256 are loaded.
+2024-04-27 03:13:01,776 - Restricting to class(es) ['chair', 'table', 'lamp']. Total utterances: 217747
+2024-04-27 03:13:20,306 - Latent codes with dimension 256 are loaded.
+2024-04-27 03:13:42,372 - Restricting to class(es) ['chair', 'table', 'lamp']. Total utterances: 217747
+2024-04-29 03:12:02,580 - Latent codes with dimension 256 are loaded.
+2024-04-29 03:12:24,214 - Restricting to class(es) ['chair', 'table', 'lamp']. Total utterances: 217747
+2024-04-29 03:12:59,683 - Latent codes with dimension 256 are loaded.
+2024-04-29 03:13:20,735 - Restricting to class(es) ['chair', 'table', 'lamp']. Total utterances: 217747
+2024-04-29 03:14:30,630 - Latent codes with dimension 256 are loaded.
+2024-04-29 03:14:53,612 - Restricting to class(es) ['chair', 'table', 'lamp']. Total utterances: 217747
+2024-04-29 03:18:20,913 - Latent codes with dimension 256 are loaded.
+2024-04-29 03:18:42,267 - Restricting to class(es) ['chair', 'table', 'lamp']. Total utterances: 217747

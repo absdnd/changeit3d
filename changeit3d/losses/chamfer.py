@@ -1,16 +1,7 @@
 import torch
 import warnings
 
-try:
-    from .ChamferDistancePytorch.chamfer3D import dist_chamfer_3D
-    chamfer_raw = dist_chamfer_3D.chamfer_3DDist()
-    efficient_chamfer = True
-except:
-    raise
-    # warnings.warn('A cuda-based (efficient) chamfer implementation is not installed/found! Using a native pytorch '
-    #               'implementation which was NOT used for the experiments of this paper.')
-    # from .nn_distance import chamfer_loss as chamfer_raw
-    # efficient_chamfer = False
+from changeit3d.losses.nn_distance import chamfer_raw
 
 
 def chamfer_loss(pc_a, pc_b, swap_axes=False, reduction='mean'):
@@ -27,19 +18,22 @@ def chamfer_loss(pc_a, pc_b, swap_axes=False, reduction='mean'):
         pc_a = pc_a.transpose(-1, -2).contiguous()
         pc_b = pc_b.transpose(-1, -2).contiguous()
 
-    if efficient_chamfer:
-        dist_a, dist_b, _, _ = chamfer_raw(pc_a, pc_b)
-    else:
-        _, dist_a, dist_b = chamfer_raw(pc_a, pc_b)
+    
+    dist_a, dist_b = chamfer_raw(pc_a, pc_b)
 
     if reduction == 'mean':
-        # reduce separately, sizes of points can be different
-        dist = ((n_points_a * dist_a.mean(1)) + (dist_b.mean(1) * n_points_b)) / (n_points_a + n_points_b)
+        # Reduce separately, sizes of points can be different
+
+        chamfer_a = (dist_a.mean(dim=0) * n_points_a).sum(dim=0)
+        chamfer_b = (dist_b.mean(dim=1) * n_points_b).sum(dim=0)
+        chamfer_distance = (chamfer_a + chamfer_b) / (n_points_a + n_points_b)
+    
     elif reduction is None:
         return dist_a, dist_b
     else:
         raise ValueError('Unknown reduction rule.')
-    return dist
+
+    return chamfer_distance
 
 
 if __name__ == '__main__':

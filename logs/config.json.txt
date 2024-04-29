@@ -1,0 +1,30 @@
+{
+    "batch_size": 1024,
+    "clean_train_val_data": false,
+    "compute_fpd": true,
+    "evaluate_retrieval_version": false,
+    "experiment_tag": null,
+    "gpu_id": 0,
+    "latent_codes_file": "/home/shared/data//pretrained/shape_latents/pcae_latent_codes.pkl",
+    "log_dir": "./logs",
+    "n_sample_points": 2048,
+    "num_workers": 10,
+    "pretrained_changeit3d": "/home/shared/data//pretrained/changers/pcae_based/all_shapetalk_classes/decoupling_mag_direction/idpen_0.05_sc_True//best_model.pt",
+    "pretrained_oracle_listener": "/home/shared/data//pretrained/listeners/oracle_listener/all_shapetalk_classes/rs_2023/listener_dgcnn_based/ablation1/best_model.pkl",
+    "pretrained_shape_classifier": "/home/shared/data//pretrained/pc_classifiers/rs_2022/all_shapetalk_classes/best_model.pkl",
+    "pretrained_shape_generator": "/home/shared/data//pretrained/pc_autoencoders/pointnet/rs_2022/points_4096/all_classes/scaled_to_align_rendering/08-07-2022-22-23-42/best_model.pt",
+    "random_seed": 2022,
+    "restrict_shape_class": [
+        "chair",
+        "table",
+        "lamp"
+    ],
+    "save_reconstructions": false,
+    "shape_generator_type": "pcae",
+    "shape_part_classifiers_top_dir": "/home/shared/data//pretrained/part_predictors/shapenet_core_based",
+    "shape_talk_file": "/home/shared/data//shapetalk/language/shapetalk_preprocessed_public_version_0.csv",
+    "sub_sample_dataset": null,
+    "top_pc_dir": "/home/shared/data//shapetalk_dataset/shapetalk/point_clouds/scaled_to_align_rendering",
+    "use_timestamp": false,
+    "vocab_file": "/home/shared/data//shapetalk/language/vocabulary.pkl"
+}

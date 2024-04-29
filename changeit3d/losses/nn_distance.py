@@ -44,16 +44,18 @@ def nn_distance(pc1, pc2, l1smooth=False, delta=1.0, l1=False):
         pc_dist = torch.sum(torch.abs(pc_diff), dim=-1)  # (B,N,M)
     else:
         pc_dist = torch.sum(pc_diff**2, dim=-1)  # (B,N,M)
+
+
     dist1, idx1 = torch.min(pc_dist, dim=2)  # (B,N)
     dist2, idx2 = torch.min(pc_dist, dim=1)  # (B,M)
     return dist1, idx1, dist2, idx2
 
 
-def chamfer_loss(pc_a, pc_b, swap_axes=False, return_separately=True):
+def chamfer_raw(pc_a, pc_b, swap_axes=False):
     """ Compute the chamfer loss for batched pointclouds.
     :param pc_a: torch.Tensor B x Na-points per point-cloud x 3
     :param pc_b: torch.Tensor B x Nb-points per point-cloud x 3
-    :return: B floats, indicating the chamfer distances
+    :return: dist_a: torch.Tensor, dist_b: torch.Tensor
     # Note: this is 10x slower than the chamfer_loss in losses/chamfer.py BUT this plays also in CPU (the
     other does not).
     """
@@ -61,8 +63,5 @@ def chamfer_loss(pc_a, pc_b, swap_axes=False, return_separately=True):
         pc_a = pc_a.transpose(-1, -2).contiguous()
         pc_b = pc_b.transpose(-1, -2).contiguous()
     dist_a, _, dist_b, _ = nn_distance(pc_a, pc_b)
-    dist = dist_a.mean(1) + dist_b.mean(1)  # reduce separately, sizes of points can be different
-    if return_separately:
-        return dist, dist_a.mean(1), dist_b.mean(1)
-    else:
-        return dist
+
+    return dist_a, dist_b

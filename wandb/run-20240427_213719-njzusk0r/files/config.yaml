@@ -1,0 +1,96 @@
+wandb_version: 1
+
+shape_talk_file:
+  desc: null
+  value: /home/shared/data/shapetalk_dataset/shapetalk/language/shapetalk_preprocessed_public_version_0.csv
+vocab_file:
+  desc: null
+  value: /home/shared/data/shapetalk_dataset/shapetalk/language/vocabulary.pkl
+latent_codes_file:
+  desc: null
+  value: /home/shared/data/pretrained/shape_latents/pcae_latent_codes.pkl
+restrict_shape_class:
+  desc: null
+  value:
+  - mug
+  - vase
+  - lamp
+  - bottle
+add_shape_glot:
+  desc: null
+  value: false
+listening_model:
+  desc: null
+  value: ablation_model_one
+do_training:
+  desc: null
+  value: true
+init_lr:
+  desc: null
+  value: 0.0005
+max_train_epochs:
+  desc: null
+  value: 100
+batch_size:
+  desc: null
+  value: 2048
+num_workers:
+  desc: null
+  value: 10
+train_patience:
+  desc: null
+  value: 15
+lr_patience:
+  desc: null
+  value: 8
+weight_decay:
+  desc: null
+  value: 0.001
+save_analysis_results:
+  desc: null
+  value: true
+pretrained_model_file:
+  desc: null
+  value: /home/shared/data/pretrained/listeners/all_shapetalk_classes/rs_2022/single_utter/transformer_based/latent_pcae_based/best_model.pt
+log_dir:
+  desc: null
+  value: /home/shared/data/pretrained_models/data/trained_listener/04-27-2024-21-36-16
+random_seed:
+  desc: null
+  value: 2022
+use_timestamp:
+  desc: null
+  value: true
+experiment_tag:
+  desc: null
+  value: null
+gpu_id:
+  desc: null
+  value: 0
+_wandb:
+  desc: null
+  value:
+    python_version: 3.8.19
+    cli_version: 0.16.6
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    start_time: 1714253839.0
+    t:
+      1:
+      - 1
+      - 55
+      2:
+      - 1
+      - 55
+      3:
+      - 13
+      - 16
+      - 23
+      - 24
+      - 61
+      4: 3.8.19
+      5: 0.16.6
+      8:
+      - 5
+      13: linux-x86_64

@@ -1,0 +1,196 @@
+2024-04-27 22:07:31,452 INFO    StreamThr :28436 [internal.py:wandb_internal():86] W&B internal server running at pid: 28436, started at: 2024-04-27 22:07:31.451478
+2024-04-27 22:07:31,456 DEBUG   HandlerThread:28436 [handler.py:handle_request():146] handle_request: status
+2024-04-27 22:07:31,461 INFO    WriterThread:28436 [datastore.py:open_for_write():87] open: /home/shared/changeit3d/wandb/run-20240427_220731-lhhatiqu/run-lhhatiqu.wandb
+2024-04-27 22:07:31,461 DEBUG   SenderThread:28436 [sender.py:send():379] send: header
+2024-04-27 22:07:31,513 DEBUG   SenderThread:28436 [sender.py:send():379] send: run
+2024-04-27 22:07:31,944 INFO    SenderThread:28436 [dir_watcher.py:__init__():211] watching files in: /home/shared/changeit3d/wandb/run-20240427_220731-lhhatiqu/files
+2024-04-27 22:07:31,944 INFO    SenderThread:28436 [sender.py:_start_run_threads():1124] run started: lhhatiqu with start time 1714255651.451809
+2024-04-27 22:07:31,955 DEBUG   HandlerThread:28436 [handler.py:handle_request():146] handle_request: check_version
+2024-04-27 22:07:31,955 DEBUG   SenderThread:28436 [sender.py:send_request():406] send_request: check_version
+2024-04-27 22:07:32,096 DEBUG   HandlerThread:28436 [handler.py:handle_request():146] handle_request: run_start
+2024-04-27 22:07:32,108 DEBUG   HandlerThread:28436 [system_info.py:__init__():26] System info init
+2024-04-27 22:07:32,108 DEBUG   HandlerThread:28436 [system_info.py:__init__():41] System info init done
+2024-04-27 22:07:32,108 INFO    HandlerThread:28436 [system_monitor.py:start():194] Starting system monitor
+2024-04-27 22:07:32,108 INFO    SystemMonitor:28436 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-04-27 22:07:32,109 INFO    SystemMonitor:28436 [interfaces.py:start():190] Started cpu monitoring
+2024-04-27 22:07:32,109 INFO    SystemMonitor:28436 [interfaces.py:start():190] Started disk monitoring
+2024-04-27 22:07:32,110 INFO    HandlerThread:28436 [system_monitor.py:probe():214] Collecting system info
+2024-04-27 22:07:32,111 INFO    SystemMonitor:28436 [interfaces.py:start():190] Started gpu monitoring
+2024-04-27 22:07:32,111 INFO    SystemMonitor:28436 [interfaces.py:start():190] Started memory monitoring
+2024-04-27 22:07:32,112 INFO    SystemMonitor:28436 [interfaces.py:start():190] Started network monitoring
+2024-04-27 22:07:32,125 DEBUG   HandlerThread:28436 [system_info.py:probe():150] Probing system
+2024-04-27 22:07:32,131 DEBUG   HandlerThread:28436 [system_info.py:_probe_git():135] Probing git
+2024-04-27 22:07:32,144 DEBUG   HandlerThread:28436 [system_info.py:_probe_git():143] Probing git done
+2024-04-27 22:07:32,144 DEBUG   HandlerThread:28436 [system_info.py:probe():198] Probing system done
+2024-04-27 22:07:32,144 DEBUG   HandlerThread:28436 [system_monitor.py:probe():223] {'os': 'Linux-5.15.0-1058-gcp-x86_64-with-glibc2.17', 'python': '3.8.19', 'heartbeatAt': '2024-04-27T22:07:32.125503', 'startedAt': '2024-04-27T22:07:31.444521', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'changeit3d/notebooks/cs766/exp_c_listener_training.py', 'codePathLocal': 'changeit3d/notebooks/cs766/exp_c_listener_training.py', 'codePath': 'changeit3d/notebooks/cs766/exp_c_listener_training.py', 'git': {'remote': 'https://github.com/optas/changeit3d', 'commit': '5bdcd18085e791f52e5e86776da9e6b872725dd2'}, 'email': None, 'root': '/home/shared/changeit3d', 'host': 'ss', 'username': 'aharish2', 'executable': '/home/aharish2/miniconda3/envs/c3d/bin/python', 'cpu_count': 2, 'cpu_count_logical': 4, 'cpu_freq': {'current': 2199.998, 'min': 0.0, 'max': 0.0}, 'cpu_freq_per_core': [{'current': 2199.998, 'min': 0.0, 'max': 0.0}, {'current': 2199.998, 'min': 0.0, 'max': 0.0}, {'current': 2199.998, 'min': 0.0, 'max': 0.0}, {'current': 2199.998, 'min': 0.0, 'max': 0.0}], 'disk': {'/': {'total': 145.1909637451172, 'used': 100.45197296142578}}, 'gpu': 'Tesla T4', 'gpu_count': 1, 'gpu_devices': [{'name': 'Tesla T4', 'memory_total': 16106127360}], 'memory': {'total': 14.627151489257812}}
+2024-04-27 22:07:32,144 INFO    HandlerThread:28436 [system_monitor.py:probe():224] Finished collecting system info
+2024-04-27 22:07:32,144 INFO    HandlerThread:28436 [system_monitor.py:probe():227] Publishing system info
+2024-04-27 22:07:32,144 DEBUG   HandlerThread:28436 [system_info.py:_save_conda():207] Saving list of conda packages installed into the current environment
+2024-04-27 22:07:32,946 INFO    Thread-12 :28436 [dir_watcher.py:_on_file_created():271] file/dir created: /home/shared/changeit3d/wandb/run-20240427_220731-lhhatiqu/files/conda-environment.yaml
+2024-04-27 22:07:34,946 INFO    Thread-12 :28436 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/shared/changeit3d/wandb/run-20240427_220731-lhhatiqu/files/conda-environment.yaml
+2024-04-27 22:07:35,020 DEBUG   HandlerThread:28436 [system_info.py:_save_conda():222] Saving conda packages done
+2024-04-27 22:07:35,021 INFO    HandlerThread:28436 [system_monitor.py:probe():229] Finished publishing system info
+2024-04-27 22:07:35,023 DEBUG   SenderThread:28436 [sender.py:send():379] send: files
+2024-04-27 22:07:35,024 INFO    SenderThread:28436 [sender.py:_save_file():1390] saving file wandb-metadata.json with policy now
+2024-04-27 22:07:35,178 DEBUG   HandlerThread:28436 [handler.py:handle_request():146] handle_request: python_packages
+2024-04-27 22:07:35,179 DEBUG   SenderThread:28436 [sender.py:send_request():406] send_request: python_packages
+2024-04-27 22:07:35,180 DEBUG   SenderThread:28436 [sender.py:send():379] send: telemetry
+2024-04-27 22:07:35,183 DEBUG   HandlerThread:28436 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-27 22:07:35,183 DEBUG   HandlerThread:28436 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-27 22:07:35,184 DEBUG   SenderThread:28436 [sender.py:send_request():406] send_request: stop_status
+2024-04-27 22:07:35,659 INFO    wandb-upload_0:28436 [upload_job.py:push():131] Uploaded file /tmp/tmpuw56wrb_wandb/jlun07uo-wandb-metadata.json
+2024-04-27 22:07:35,946 INFO    Thread-12 :28436 [dir_watcher.py:_on_file_created():271] file/dir created: /home/shared/changeit3d/wandb/run-20240427_220731-lhhatiqu/files/wandb-metadata.json
+2024-04-27 22:07:35,947 INFO    Thread-12 :28436 [dir_watcher.py:_on_file_created():271] file/dir created: /home/shared/changeit3d/wandb/run-20240427_220731-lhhatiqu/files/requirements.txt
+2024-04-27 22:07:35,947 INFO    Thread-12 :28436 [dir_watcher.py:_on_file_created():271] file/dir created: /home/shared/changeit3d/wandb/run-20240427_220731-lhhatiqu/files/output.log
+2024-04-27 22:07:36,508 DEBUG   HandlerThread:28436 [handler.py:handle_request():146] handle_request: status_report
+2024-04-27 22:07:37,947 INFO    Thread-12 :28436 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/shared/changeit3d/wandb/run-20240427_220731-lhhatiqu/files/output.log
+2024-04-27 22:07:41,509 DEBUG   HandlerThread:28436 [handler.py:handle_request():146] handle_request: status_report
+2024-04-27 22:07:41,699 DEBUG   HandlerThread:28436 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-27 22:07:41,700 DEBUG   SenderThread:28436 [sender.py:send():379] send: telemetry
+2024-04-27 22:07:42,385 DEBUG   SenderThread:28436 [sender.py:send():379] send: exit
+2024-04-27 22:07:42,386 INFO    SenderThread:28436 [sender.py:send_exit():586] handling exit code: 1
+2024-04-27 22:07:42,386 INFO    SenderThread:28436 [sender.py:send_exit():588] handling runtime: 10
+2024-04-27 22:07:42,387 INFO    SenderThread:28436 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-27 22:07:42,387 INFO    SenderThread:28436 [sender.py:send_exit():594] send defer
+2024-04-27 22:07:42,388 DEBUG   HandlerThread:28436 [handler.py:handle_request():146] handle_request: defer
+2024-04-27 22:07:42,388 INFO    HandlerThread:28436 [handler.py:handle_request_defer():172] handle defer: 0
+2024-04-27 22:07:42,388 DEBUG   SenderThread:28436 [sender.py:send_request():406] send_request: defer
+2024-04-27 22:07:42,388 INFO    SenderThread:28436 [sender.py:send_request_defer():610] handle sender defer: 0
+2024-04-27 22:07:42,388 INFO    SenderThread:28436 [sender.py:transition_state():614] send defer: 1
+2024-04-27 22:07:42,388 DEBUG   HandlerThread:28436 [handler.py:handle_request():146] handle_request: defer
+2024-04-27 22:07:42,388 INFO    HandlerThread:28436 [handler.py:handle_request_defer():172] handle defer: 1
+2024-04-27 22:07:42,389 DEBUG   SenderThread:28436 [sender.py:send_request():406] send_request: defer
+2024-04-27 22:07:42,389 INFO    SenderThread:28436 [sender.py:send_request_defer():610] handle sender defer: 1
+2024-04-27 22:07:42,389 INFO    SenderThread:28436 [sender.py:transition_state():614] send defer: 2
+2024-04-27 22:07:42,389 DEBUG   HandlerThread:28436 [handler.py:handle_request():146] handle_request: defer
+2024-04-27 22:07:42,389 INFO    HandlerThread:28436 [handler.py:handle_request_defer():172] handle defer: 2
+2024-04-27 22:07:42,389 INFO    HandlerThread:28436 [system_monitor.py:finish():203] Stopping system monitor
+2024-04-27 22:07:42,389 DEBUG   SystemMonitor:28436 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-04-27 22:07:42,389 DEBUG   SystemMonitor:28436 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-04-27 22:07:42,389 DEBUG   SystemMonitor:28436 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-04-27 22:07:42,389 INFO    HandlerThread:28436 [interfaces.py:finish():202] Joined cpu monitor
+2024-04-27 22:07:42,390 INFO    HandlerThread:28436 [interfaces.py:finish():202] Joined disk monitor
+2024-04-27 22:07:42,425 INFO    HandlerThread:28436 [interfaces.py:finish():202] Joined gpu monitor
+2024-04-27 22:07:42,425 INFO    HandlerThread:28436 [interfaces.py:finish():202] Joined memory monitor
+2024-04-27 22:07:42,425 INFO    HandlerThread:28436 [interfaces.py:finish():202] Joined network monitor
+2024-04-27 22:07:42,426 DEBUG   SenderThread:28436 [sender.py:send_request():406] send_request: defer
+2024-04-27 22:07:42,426 INFO    SenderThread:28436 [sender.py:send_request_defer():610] handle sender defer: 2
+2024-04-27 22:07:42,426 INFO    SenderThread:28436 [sender.py:transition_state():614] send defer: 3
+2024-04-27 22:07:42,426 DEBUG   HandlerThread:28436 [handler.py:handle_request():146] handle_request: defer
+2024-04-27 22:07:42,426 INFO    HandlerThread:28436 [handler.py:handle_request_defer():172] handle defer: 3
+2024-04-27 22:07:42,427 DEBUG   SenderThread:28436 [sender.py:send():379] send: history
+2024-04-27 22:07:42,427 DEBUG   SenderThread:28436 [sender.py:send_request():406] send_request: summary_record
+2024-04-27 22:07:42,427 INFO    SenderThread:28436 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-27 22:07:42,428 DEBUG   SenderThread:28436 [sender.py:send_request():406] send_request: defer
+2024-04-27 22:07:42,428 INFO    SenderThread:28436 [sender.py:send_request_defer():610] handle sender defer: 3
+2024-04-27 22:07:42,428 INFO    SenderThread:28436 [sender.py:transition_state():614] send defer: 4
+2024-04-27 22:07:42,428 DEBUG   HandlerThread:28436 [handler.py:handle_request():146] handle_request: defer
+2024-04-27 22:07:42,428 INFO    HandlerThread:28436 [handler.py:handle_request_defer():172] handle defer: 4
+2024-04-27 22:07:42,428 DEBUG   SenderThread:28436 [sender.py:send_request():406] send_request: defer
+2024-04-27 22:07:42,428 INFO    SenderThread:28436 [sender.py:send_request_defer():610] handle sender defer: 4
+2024-04-27 22:07:42,428 INFO    SenderThread:28436 [sender.py:transition_state():614] send defer: 5
+2024-04-27 22:07:42,428 DEBUG   HandlerThread:28436 [handler.py:handle_request():146] handle_request: defer
+2024-04-27 22:07:42,428 INFO    HandlerThread:28436 [handler.py:handle_request_defer():172] handle defer: 5
+2024-04-27 22:07:42,429 DEBUG   SenderThread:28436 [sender.py:send():379] send: summary
+2024-04-27 22:07:42,429 INFO    SenderThread:28436 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-27 22:07:42,429 DEBUG   SenderThread:28436 [sender.py:send_request():406] send_request: defer
+2024-04-27 22:07:42,429 INFO    SenderThread:28436 [sender.py:send_request_defer():610] handle sender defer: 5
+2024-04-27 22:07:42,429 INFO    SenderThread:28436 [sender.py:transition_state():614] send defer: 6
+2024-04-27 22:07:42,429 DEBUG   HandlerThread:28436 [handler.py:handle_request():146] handle_request: defer
+2024-04-27 22:07:42,429 INFO    HandlerThread:28436 [handler.py:handle_request_defer():172] handle defer: 6
+2024-04-27 22:07:42,430 DEBUG   SenderThread:28436 [sender.py:send_request():406] send_request: defer
+2024-04-27 22:07:42,430 INFO    SenderThread:28436 [sender.py:send_request_defer():610] handle sender defer: 6
+2024-04-27 22:07:42,433 DEBUG   HandlerThread:28436 [handler.py:handle_request():146] handle_request: status_report
+2024-04-27 22:07:42,607 INFO    SenderThread:28436 [sender.py:transition_state():614] send defer: 7
+2024-04-27 22:07:42,607 DEBUG   HandlerThread:28436 [handler.py:handle_request():146] handle_request: defer
+2024-04-27 22:07:42,607 INFO    HandlerThread:28436 [handler.py:handle_request_defer():172] handle defer: 7
+2024-04-27 22:07:42,607 DEBUG   SenderThread:28436 [sender.py:send_request():406] send_request: defer
+2024-04-27 22:07:42,607 INFO    SenderThread:28436 [sender.py:send_request_defer():610] handle sender defer: 7
+2024-04-27 22:07:42,949 INFO    Thread-12 :28436 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/shared/changeit3d/wandb/run-20240427_220731-lhhatiqu/files/config.yaml
+2024-04-27 22:07:42,949 INFO    Thread-12 :28436 [dir_watcher.py:_on_file_created():271] file/dir created: /home/shared/changeit3d/wandb/run-20240427_220731-lhhatiqu/files/wandb-summary.json
+2024-04-27 22:07:43,386 DEBUG   HandlerThread:28436 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-27 22:07:43,661 INFO    SenderThread:28436 [sender.py:transition_state():614] send defer: 8
+2024-04-27 22:07:43,661 DEBUG   SenderThread:28436 [sender.py:send_request():406] send_request: poll_exit
+2024-04-27 22:07:43,661 DEBUG   HandlerThread:28436 [handler.py:handle_request():146] handle_request: defer
+2024-04-27 22:07:43,661 INFO    HandlerThread:28436 [handler.py:handle_request_defer():172] handle defer: 8
+2024-04-27 22:07:43,662 DEBUG   SenderThread:28436 [sender.py:send_request():406] send_request: defer
+2024-04-27 22:07:43,662 INFO    SenderThread:28436 [sender.py:send_request_defer():610] handle sender defer: 8
+2024-04-27 22:07:43,662 INFO    SenderThread:28436 [job_builder.py:build():318] Attempting to build job artifact
+2024-04-27 22:07:43,662 INFO    SenderThread:28436 [job_builder.py:_get_source_type():455] is repo sourced job
+2024-04-27 22:07:43,689 INFO    SenderThread:28436 [job_builder.py:build():431] adding wandb-job metadata file
+2024-04-27 22:07:43,693 INFO    SenderThread:28436 [sender.py:transition_state():614] send defer: 9
+2024-04-27 22:07:43,694 DEBUG   HandlerThread:28436 [handler.py:handle_request():146] handle_request: defer
+2024-04-27 22:07:43,694 INFO    HandlerThread:28436 [handler.py:handle_request_defer():172] handle defer: 9
+2024-04-27 22:07:43,694 DEBUG   SenderThread:28436 [sender.py:send():379] send: artifact
+2024-04-27 22:07:43,949 INFO    Thread-12 :28436 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/shared/changeit3d/wandb/run-20240427_220731-lhhatiqu/files/output.log
+2024-04-27 22:07:44,387 DEBUG   HandlerThread:28436 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-27 22:07:44,680 INFO    wandb-upload_1:28436 [upload_job.py:push():86] Skipped uploading /home/aharish2/.local/share/wandb/artifacts/staging/tmp_ipp_88f
+2024-04-27 22:07:44,919 INFO    wandb-upload_0:28436 [upload_job.py:push():89] Uploaded file /tmp/tmpvtqs25t8/wandb-job.json
+2024-04-27 22:07:46,117 INFO    SenderThread:28436 [sender.py:send_artifact():1468] sent artifact job-https___github.com_optas_changeit3d_changeit3d_notebooks_cs766_exp_c_listener_training.py - {'id': 'QXJ0aWZhY3Q6ODEzMTgyMDA0', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE2NzU3MjQzMQ==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6ODEzMTY3OTcz', 'versionIndex': 1}}}
+2024-04-27 22:07:46,117 DEBUG   SenderThread:28436 [sender.py:send_request():406] send_request: defer
+2024-04-27 22:07:46,117 INFO    SenderThread:28436 [sender.py:send_request_defer():610] handle sender defer: 9
+2024-04-27 22:07:46,117 INFO    SenderThread:28436 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-04-27 22:07:46,950 INFO    SenderThread:28436 [dir_watcher.py:finish():388] scan: /home/shared/changeit3d/wandb/run-20240427_220731-lhhatiqu/files
+2024-04-27 22:07:46,951 INFO    SenderThread:28436 [dir_watcher.py:finish():402] scan save: /home/shared/changeit3d/wandb/run-20240427_220731-lhhatiqu/files/output.log output.log
+2024-04-27 22:07:46,951 INFO    SenderThread:28436 [dir_watcher.py:finish():402] scan save: /home/shared/changeit3d/wandb/run-20240427_220731-lhhatiqu/files/conda-environment.yaml conda-environment.yaml
+2024-04-27 22:07:46,953 INFO    SenderThread:28436 [dir_watcher.py:finish():402] scan save: /home/shared/changeit3d/wandb/run-20240427_220731-lhhatiqu/files/wandb-metadata.json wandb-metadata.json
+2024-04-27 22:07:46,953 INFO    SenderThread:28436 [dir_watcher.py:finish():402] scan save: /home/shared/changeit3d/wandb/run-20240427_220731-lhhatiqu/files/wandb-summary.json wandb-summary.json
+2024-04-27 22:07:46,956 INFO    SenderThread:28436 [dir_watcher.py:finish():402] scan save: /home/shared/changeit3d/wandb/run-20240427_220731-lhhatiqu/files/config.yaml config.yaml
+2024-04-27 22:07:46,956 INFO    SenderThread:28436 [dir_watcher.py:finish():402] scan save: /home/shared/changeit3d/wandb/run-20240427_220731-lhhatiqu/files/requirements.txt requirements.txt
+2024-04-27 22:07:46,958 INFO    SenderThread:28436 [sender.py:transition_state():614] send defer: 10
+2024-04-27 22:07:46,958 DEBUG   SenderThread:28436 [sender.py:send_request():406] send_request: poll_exit
+2024-04-27 22:07:46,961 DEBUG   HandlerThread:28436 [handler.py:handle_request():146] handle_request: defer
+2024-04-27 22:07:46,961 INFO    HandlerThread:28436 [handler.py:handle_request_defer():172] handle defer: 10
+2024-04-27 22:07:46,961 DEBUG   SenderThread:28436 [sender.py:send_request():406] send_request: defer
+2024-04-27 22:07:46,962 INFO    SenderThread:28436 [sender.py:send_request_defer():610] handle sender defer: 10
+2024-04-27 22:07:46,962 INFO    SenderThread:28436 [file_pusher.py:finish():172] shutting down file pusher
+2024-04-27 22:07:47,325 INFO    wandb-upload_1:28436 [upload_job.py:push():131] Uploaded file /home/shared/changeit3d/wandb/run-20240427_220731-lhhatiqu/files/output.log
+2024-04-27 22:07:47,361 INFO    wandb-upload_0:28436 [upload_job.py:push():131] Uploaded file /home/shared/changeit3d/wandb/run-20240427_220731-lhhatiqu/files/conda-environment.yaml
+2024-04-27 22:07:47,388 DEBUG   HandlerThread:28436 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-27 22:07:47,388 DEBUG   SenderThread:28436 [sender.py:send_request():406] send_request: poll_exit
+2024-04-27 22:07:47,473 INFO    wandb-upload_2:28436 [upload_job.py:push():131] Uploaded file /home/shared/changeit3d/wandb/run-20240427_220731-lhhatiqu/files/wandb-summary.json
+2024-04-27 22:07:47,509 INFO    wandb-upload_3:28436 [upload_job.py:push():131] Uploaded file /home/shared/changeit3d/wandb/run-20240427_220731-lhhatiqu/files/config.yaml
+2024-04-27 22:07:47,521 INFO    wandb-upload_4:28436 [upload_job.py:push():131] Uploaded file /home/shared/changeit3d/wandb/run-20240427_220731-lhhatiqu/files/requirements.txt
+2024-04-27 22:07:47,722 INFO    Thread-11 :28436 [sender.py:transition_state():614] send defer: 11
+2024-04-27 22:07:47,722 DEBUG   HandlerThread:28436 [handler.py:handle_request():146] handle_request: defer
+2024-04-27 22:07:47,722 INFO    HandlerThread:28436 [handler.py:handle_request_defer():172] handle defer: 11
+2024-04-27 22:07:47,722 DEBUG   SenderThread:28436 [sender.py:send_request():406] send_request: defer
+2024-04-27 22:07:47,722 INFO    SenderThread:28436 [sender.py:send_request_defer():610] handle sender defer: 11
+2024-04-27 22:07:47,722 INFO    SenderThread:28436 [file_pusher.py:join():178] waiting for file pusher
+2024-04-27 22:07:47,723 INFO    SenderThread:28436 [sender.py:transition_state():614] send defer: 12
+2024-04-27 22:07:47,723 DEBUG   HandlerThread:28436 [handler.py:handle_request():146] handle_request: defer
+2024-04-27 22:07:47,723 INFO    HandlerThread:28436 [handler.py:handle_request_defer():172] handle defer: 12
+2024-04-27 22:07:47,723 DEBUG   SenderThread:28436 [sender.py:send_request():406] send_request: defer
+2024-04-27 22:07:47,723 INFO    SenderThread:28436 [sender.py:send_request_defer():610] handle sender defer: 12
+2024-04-27 22:07:47,723 INFO    SenderThread:28436 [file_stream.py:finish():614] file stream finish called
+2024-04-27 22:07:47,861 INFO    SenderThread:28436 [file_stream.py:finish():618] file stream finish is done
+2024-04-27 22:07:47,861 INFO    SenderThread:28436 [sender.py:transition_state():614] send defer: 13
+2024-04-27 22:07:47,862 DEBUG   HandlerThread:28436 [handler.py:handle_request():146] handle_request: defer
+2024-04-27 22:07:47,862 INFO    HandlerThread:28436 [handler.py:handle_request_defer():172] handle defer: 13
+2024-04-27 22:07:47,862 DEBUG   SenderThread:28436 [sender.py:send_request():406] send_request: defer
+2024-04-27 22:07:47,862 INFO    SenderThread:28436 [sender.py:send_request_defer():610] handle sender defer: 13
+2024-04-27 22:07:47,862 INFO    SenderThread:28436 [sender.py:transition_state():614] send defer: 14
+2024-04-27 22:07:47,862 DEBUG   HandlerThread:28436 [handler.py:handle_request():146] handle_request: defer
+2024-04-27 22:07:47,862 INFO    HandlerThread:28436 [handler.py:handle_request_defer():172] handle defer: 14
+2024-04-27 22:07:47,863 DEBUG   SenderThread:28436 [sender.py:send():379] send: final
+2024-04-27 22:07:47,863 DEBUG   SenderThread:28436 [sender.py:send():379] send: footer
+2024-04-27 22:07:47,863 DEBUG   SenderThread:28436 [sender.py:send_request():406] send_request: defer
+2024-04-27 22:07:47,863 INFO    SenderThread:28436 [sender.py:send_request_defer():610] handle sender defer: 14
+2024-04-27 22:07:47,863 DEBUG   HandlerThread:28436 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-27 22:07:47,864 DEBUG   SenderThread:28436 [sender.py:send_request():406] send_request: poll_exit
+2024-04-27 22:07:47,864 DEBUG   HandlerThread:28436 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-27 22:07:47,864 DEBUG   SenderThread:28436 [sender.py:send_request():406] send_request: poll_exit
+2024-04-27 22:07:47,864 DEBUG   HandlerThread:28436 [handler.py:handle_request():146] handle_request: server_info
+2024-04-27 22:07:47,865 DEBUG   SenderThread:28436 [sender.py:send_request():406] send_request: server_info
+2024-04-27 22:07:47,867 DEBUG   HandlerThread:28436 [handler.py:handle_request():146] handle_request: get_summary
+2024-04-27 22:07:47,867 DEBUG   HandlerThread:28436 [handler.py:handle_request():146] handle_request: sampled_history
+2024-04-27 22:07:47,867 DEBUG   HandlerThread:28436 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-27 22:07:48,003 INFO    MainThread:28436 [wandb_run.py:_footer_history_summary_info():3936] rendering history
+2024-04-27 22:07:48,003 INFO    MainThread:28436 [wandb_run.py:_footer_history_summary_info():3968] rendering summary
+2024-04-27 22:07:48,003 INFO    MainThread:28436 [wandb_run.py:_footer_sync_info():3895] logging synced files
+2024-04-27 22:07:48,003 DEBUG   HandlerThread:28436 [handler.py:handle_request():146] handle_request: shutdown
+2024-04-27 22:07:48,004 INFO    HandlerThread:28436 [handler.py:finish():866] shutting down handler
+2024-04-27 22:07:48,865 INFO    WriterThread:28436 [datastore.py:close():296] close: /home/shared/changeit3d/wandb/run-20240427_220731-lhhatiqu/run-lhhatiqu.wandb
+2024-04-27 22:07:49,003 INFO    SenderThread:28436 [sender.py:finish():1546] shutting down sender
+2024-04-27 22:07:49,003 INFO    SenderThread:28436 [file_pusher.py:finish():172] shutting down file pusher
+2024-04-27 22:07:49,003 INFO    SenderThread:28436 [file_pusher.py:join():178] waiting for file pusher

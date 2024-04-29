@@ -1,0 +1,381 @@
+/home/aharish2/miniconda3/envs/c3d/lib/python3.8/site-packages/torch/utils/data/dataloader.py:554: UserWarning: This DataLoader will create 10 worker processes in total. Our suggested max number of worker in current system is 4, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(_create_warning_msg(
+@epoch-2 train 0.554
+val 0.529
+test 0.521
+* validation accuracy improved *
+best test accuracy 0.521
+@epoch-3 train 0.606
+val 0.536
+test 0.554
+* validation accuracy improved *
+best test accuracy 0.554
+@epoch-4 train 0.632
+val 0.563
+test 0.573
+* validation accuracy improved *
+best test accuracy 0.573
+@epoch-5 train 0.655
+val 0.589
+test 0.582
+* validation accuracy improved *
+best test accuracy 0.582
+@epoch-6 train 0.674
+val 0.569
+test 0.585
+best test accuracy 0.582
+@epoch-7 train 0.689
+val 0.576
+test 0.592
+best test accuracy 0.582
+@epoch-8 train 0.698
+val 0.577
+test 0.573
+best test accuracy 0.582
+@epoch-9 train 0.711
+val 0.589
+test 0.584
+best test accuracy 0.582
+@epoch-10 train 0.721
+val 0.593
+test 0.596
+* validation accuracy improved *
+best test accuracy 0.596
+@epoch-11 train 0.730
+val 0.612
+test 0.601
+* validation accuracy improved *
+best test accuracy 0.601
+@epoch-12 train 0.739
+val 0.596
+test 0.599
+best test accuracy 0.601
+@epoch-13 train 0.748
+val 0.607
+test 0.603
+best test accuracy 0.601
+@epoch-14 train 0.755
+val 0.600
+test 0.604
+best test accuracy 0.601
+@epoch-15 train 0.763
+val 0.599
+test 0.612
+best test accuracy 0.601
+@epoch-16 train 0.768
+val 0.596
+test 0.611
+best test accuracy 0.601
+@epoch-17 train 0.775
+val 0.616
+test 0.622
+* validation accuracy improved *
+best test accuracy 0.622
+@epoch-18 train 0.780
+val 0.603
+test 0.614
+best test accuracy 0.622
+@epoch-19 train 0.784
+val 0.611
+test 0.615
+best test accuracy 0.622
+@epoch-20 train 0.791
+val 0.611
+test 0.619
+best test accuracy 0.622
+@epoch-21 train 0.793
+val 0.617
+test 0.622
+* validation accuracy improved *
+best test accuracy 0.622
+@epoch-22 train 0.796
+val 0.624
+test 0.626
+* validation accuracy improved *
+best test accuracy 0.626
+@epoch-23 train 0.801
+val 0.633
+test 0.626
+* validation accuracy improved *
+best test accuracy 0.626
+@epoch-24 train 0.801
+val 0.610
+test 0.626
+best test accuracy 0.626
+@epoch-25 train 0.806
+val 0.612
+test 0.623
+best test accuracy 0.626
+@epoch-26 train 0.811
+val 0.620
+test 0.618
+best test accuracy 0.626
+@epoch-27 train 0.812
+val 0.617
+test 0.633
+best test accuracy 0.626
+@epoch-28 train 0.814
+val 0.625
+test 0.614
+best test accuracy 0.626
+@epoch-29 train 0.817
+val 0.614
+test 0.622
+best test accuracy 0.626
+@epoch-30 train 0.820
+val 0.618
+test 0.622
+best test accuracy 0.626
+@epoch-31 train 0.821
+val 0.614
+test 0.631
+best test accuracy 0.626
+@epoch-32 train 0.822
+Epoch 00031: reducing learning rate of group 0 to 2.5000e-04.
+val 0.610
+test 0.631
+best test accuracy 0.626
+@epoch-33 train 0.836
+val 0.602
+test 0.618
+best test accuracy 0.626
+@epoch-34 train 0.844
+val 0.607
+test 0.619
+best test accuracy 0.626
+@epoch-35 train 0.846
+val 0.605
+test 0.618
+best test accuracy 0.626
+@epoch-36 train 0.848
+val 0.608
+test 0.617
+best test accuracy 0.626
+@epoch-37 train 0.851
+val 0.610
+test 0.624
+best test accuracy 0.626
+@epoch-38 train 0.852
+val 0.612
+test 0.626
+best test accuracy 0.626
+@epoch-39 train 0.856
+val 0.612
+test 0.619
+best test accuracy 0.626
+@epoch-40 train 0.854
+val 0.604
+test 0.619
+best test accuracy 0.626
+@epoch-41 train 0.857
+Epoch 00040: reducing learning rate of group 0 to 1.2500e-04.
+val 0.614
+test 0.623
+best test accuracy 0.626
+@epoch-42 train 0.866
+val 0.609
+test 0.619
+best test accuracy 0.626
+@epoch-43 train 0.868
+val 0.604
+test 0.616
+best test accuracy 0.626
+@epoch-44 train 0.869
+val 0.600
+test 0.617
+best test accuracy 0.626
+@epoch-45 train 0.874
+val 0.604
+test 0.614
+best test accuracy 0.626
+@epoch-46 train 0.874
+val 0.606
+test 0.619
+best test accuracy 0.626
+@epoch-47 train 0.874
+val 0.602
+test 0.618
+best test accuracy 0.626
+@epoch-48 train 0.876
+val 0.608
+test 0.622
+best test accuracy 0.626
+@epoch-49 train 0.875
+val 0.601
+test 0.614
+best test accuracy 0.626
+@epoch-50 train 0.876
+Epoch 00049: reducing learning rate of group 0 to 6.2500e-05.
+val 0.600
+test 0.619
+best test accuracy 0.626
+@epoch-51 train 0.880
+val 0.599
+test 0.614
+best test accuracy 0.626
+@epoch-52 train 0.884
+val 0.593
+test 0.610
+best test accuracy 0.626
+@epoch-53 train 0.884
+val 0.596
+test 0.612
+best test accuracy 0.626
+@epoch-54 train 0.884
+val 0.610
+test 0.613
+best test accuracy 0.626
+@epoch-55 train 0.886
+val 0.605
+test 0.613
+best test accuracy 0.626
+@epoch-56 train 0.885
+val 0.592
+test 0.614
+best test accuracy 0.626
+@epoch-57 train 0.886
+val 0.602
+test 0.613
+best test accuracy 0.626
+@epoch-58 train 0.888
+val 0.599
+test 0.615
+best test accuracy 0.626
+@epoch-59 train 0.887
+Epoch 00058: reducing learning rate of group 0 to 3.1250e-05.
+val 0.601
+test 0.613
+best test accuracy 0.626
+@epoch-60 train 0.888
+val 0.597
+test 0.613
+best test accuracy 0.626
+@epoch-61 train 0.892
+val 0.595
+test 0.612
+best test accuracy 0.626
+@epoch-62 train 0.890
+val 0.593
+test 0.611
+best test accuracy 0.626
+@epoch-63 train 0.892
+val 0.596
+test 0.609
+best test accuracy 0.626
+@epoch-64 train 0.892
+val 0.592
+test 0.609
+best test accuracy 0.626
+@epoch-65 train 0.892
+val 0.596
+test 0.611
+best test accuracy 0.626
+@epoch-66 train 0.894
+val 0.595
+test 0.609
+best test accuracy 0.626
+@epoch-67 train 0.894
+val 0.592
+test 0.610
+best test accuracy 0.626
+@epoch-68 train 0.895
+Epoch 00067: reducing learning rate of group 0 to 1.5625e-05.
+val 0.592
+test 0.610
+best test accuracy 0.626
+@epoch-69 train 0.893
+val 0.589
+test 0.608
+best test accuracy 0.626
+@epoch-70 train 0.893
+val 0.595
+test 0.609
+best test accuracy 0.626
+@epoch-71 train 0.895
+val 0.595
+test 0.609
+best test accuracy 0.626
+@epoch-72 train 0.895
+val 0.594
+test 0.607
+best test accuracy 0.626
+@epoch-73 train 0.892
+val 0.593
+test 0.610
+best test accuracy 0.626
+@epoch-74 train 0.896
+val 0.590
+test 0.609
+best test accuracy 0.626
+@epoch-75 train 0.895
+val 0.591
+test 0.609
+best test accuracy 0.626
+@epoch-76 train 0.897
+val 0.592
+test 0.609
+best test accuracy 0.626
+@epoch-77 train 0.896
+Epoch 00076: reducing learning rate of group 0 to 7.8125e-06.
+val 0.590
+test 0.610
+best test accuracy 0.626
+@epoch-78 train 0.895
+val 0.594
+test 0.609
+best test accuracy 0.626
+@epoch-79 train 0.896
+val 0.593
+test 0.609
+best test accuracy 0.626
+@epoch-80 train 0.895
+val 0.592
+test 0.607
+best test accuracy 0.626
+@epoch-81 train 0.895
+val 0.595
+test 0.611
+best test accuracy 0.626
+@epoch-82 train 0.895
+val 0.594
+test 0.609
+best test accuracy 0.626
+@epoch-83 train 0.897
+val 0.592
+test 0.610
+best test accuracy 0.626
+Traceback (most recent call last):
+  File "changeit3d/notebooks/cs766/exp_c_listener_training.py", line 225, in <module>
+  File "changeit3d/notebooks/cs766/exp_c_listener_training.py", line 96, in exp_c_train_listener
+    criterion, optimizer, device=device)
+  File "/home/shared/changeit3d/changeit3d/models/listening_oriented.py", line 218, in single_epoch_train
+    logits = listener(tokens, stimuli)
+  File "/home/aharish2/miniconda3/envs/c3d/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/shared/changeit3d/changeit3d/models/listening_oriented.py", line 64, in forward
+    return self.transformer_based_forward(tokens, stimuli)
+  File "/home/shared/changeit3d/changeit3d/models/listening_oriented.py", line 32, in transformer_based_forward
+    lang_feat = self.language_encoder(tokens.t())  # seq_len, batch_size, d_model
+  File "/home/aharish2/miniconda3/envs/c3d/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/shared/changeit3d/changeit3d/models/listening_oriented.py", line 176, in forward
+    output = self.transformer_encoder(src)
+  File "/home/aharish2/miniconda3/envs/c3d/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/aharish2/miniconda3/envs/c3d/lib/python3.8/site-packages/torch/nn/modules/transformer.py", line 280, in forward
+    output = mod(output, src_mask=mask, src_key_padding_mask=src_key_padding_mask_for_layers)
+  File "/home/aharish2/miniconda3/envs/c3d/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/aharish2/miniconda3/envs/c3d/lib/python3.8/site-packages/torch/nn/modules/transformer.py", line 538, in forward
+    x = self.norm1(x + self._sa_block(x, src_mask, src_key_padding_mask))
+  File "/home/aharish2/miniconda3/envs/c3d/lib/python3.8/site-packages/torch/nn/modules/transformer.py", line 546, in _sa_block
+    x = self.self_attn(x, x, x,
+  File "/home/aharish2/miniconda3/envs/c3d/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/aharish2/miniconda3/envs/c3d/lib/python3.8/site-packages/torch/nn/modules/activation.py", line 1167, in forward
+    attn_output, attn_output_weights = F.multi_head_attention_forward(
+  File "/home/aharish2/miniconda3/envs/c3d/lib/python3.8/site-packages/torch/nn/functional.py", line 5163, in multi_head_attention_forward
+    attn_output_weights = dropout(attn_output_weights, p=dropout_p)
+  File "/home/aharish2/miniconda3/envs/c3d/lib/python3.8/site-packages/torch/nn/functional.py", line 1252, in dropout
+    return _VF.dropout_(input, p, training) if inplace else _VF.dropout(input, p, training)
+KeyboardInterrupt
