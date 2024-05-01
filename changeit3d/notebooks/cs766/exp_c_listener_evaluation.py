@@ -5,7 +5,8 @@ import os.path as osp
 from torch import nn
 from torch import optim
 from ast import literal_eval
-
+import sys
+sys.path.append('/home/shared/changeit3d')
 from changeit3d.in_out.basics import (unpickle_data,
                                       create_logger,
                                       pickle_data,

@@ -48,7 +48,6 @@ pretrained_shape_classifier =  f'{top_train_dir}/pretrained/pc_classifiers/rs_20
 shape_part_classifiers_top_dir = f'{top_train_dir}/pretrained/part_predictors/shapenet_core_based'
 latent_codes_file = f'{top_train_dir}/pretrained/shape_latents/{shape_generator_type}_latent_codes.pkl'
 
-# Output Folder
 output_folder = f"{top_data_dir}/generation_results/noisy_point_clouds_v3"
 os.makedirs(output_folder, exist_ok=True)
 
@@ -57,7 +56,8 @@ noisy_pc_file_dict = {
 }
 
 sigma_list = ['0.1', '0.2', '0.00', '0.01', '0.02', '0.03', '0.04', '0.05', '0.025', '0.035', '0.045', '0.055', '0.003', '0.005', '0.008']
-categories = ['mug', 'lamp', 'bottle', 'chair']
+# categories = ['mug', 'lamp', 'bottle', 'chair']
+categories = ['vase']
 
 
 # Point cloud data paths

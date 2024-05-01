@@ -106,3 +106,7 @@
 2024-04-29 03:14:53,612 - Restricting to class(es) ['chair', 'table', 'lamp']. Total utterances: 217747
 2024-04-29 03:18:20,913 - Latent codes with dimension 256 are loaded.
 2024-04-29 03:18:42,267 - Restricting to class(es) ['chair', 'table', 'lamp']. Total utterances: 217747
+2024-04-29 23:27:17,876 - Latent codes with dimension 256 are loaded.
+2024-04-29 23:27:41,618 - Restricting to class(es) ['chair', 'table', 'lamp']. Total utterances: 217747
+2024-04-29 23:28:12,356 - Latent codes with dimension 256 are loaded.
+2024-04-29 23:28:34,932 - Restricting to class(es) ['chair', 'table', 'lamp']. Total utterances: 217747

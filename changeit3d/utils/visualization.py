@@ -61,13 +61,18 @@ def visualize_point_clouds_3d_v2(pcl_lst, title_lst=None, vis_axis_order=[0, 2, 
     if title_lst is None:
         title_lst = [""] * len(pcl_lst)
     
-    fig = plt.figure(figsize=(3 * len(pcl_lst), 3))
+    fig = plt.figure(figsize=(3 * len(pcl_lst), 4))
+    # Don't show axes
+    plt.axis('off')
     if fig_title is not None:
         plt.title(fig_title)
         
     for idx, (pts, title) in enumerate(zip(pcl_lst, title_lst)):
         ax1 = fig.add_subplot(1, len(pcl_lst), 1 + idx, projection='3d')
-        ax1.set_title(title)       
+        ax1.set_title(title) 
+        # ax1.view_init(elev=10, azim=245)      
+        # Don't show axes
+        ax1.axis('off')
         ax1.scatter(pts[:, vis_axis_order[0]], pts[:, vis_axis_order[1]], pts[:, vis_axis_order[2]], s=2)
     fig.canvas.draw()
 

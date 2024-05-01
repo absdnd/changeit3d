@@ -15,6 +15,9 @@ def chamfer_dists(original_shapes, transformed_shapes, bsize, device="cuda"):
 
         o = torch.Tensor([original_shapes[i] for i in locs_list]).to(device)
         t = torch.Tensor([transformed_shapes[i] for i in locs_list]).to(device)
+        # o = torch.stack([original_shapes[i] for i in locs_list]).to(device)
+        # t = torch.stack([transformed_shapes[i] for i in locs_list]).to(device)
+
        
         chamfer, _ = chamfer_loss(o, t, swap_axes=False, reduction=None)
         all_dists.append(chamfer)

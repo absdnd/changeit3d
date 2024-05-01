@@ -5,7 +5,8 @@ import os.path as osp
 from torch import nn
 from torch import optim
 from ast import literal_eval
-
+import sys
+sys.path.append('/home/shared/changeit3d')
 from changeit3d.in_out.basics import (unpickle_data, create_logger, pickle_data, torch_save_model, save_state_dicts, load_state_dicts)
 
 from changeit3d.in_out.arguments import parse_train_test_latent_listener_arguments
@@ -250,7 +251,7 @@ if __name__ == "__main__":
         pretrained_model_file=f'{top_pretrained_dir}/listeners/all_shapetalk_classes/rs_2022/single_utter/transformer_based/latent_pcae_based/best_model.pt',
         save_analysis_results='true',
         restrict_shape_class=restrict_shape_class, 
-        train_patience = '100',
+        train_patience='25',
         )
     
     notebook_args.extend(['--use_timestamp', 'false'])
